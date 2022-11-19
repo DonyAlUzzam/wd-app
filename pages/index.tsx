@@ -67,8 +67,8 @@ const Home: NextPage = () => {
       />
        <button className="fixed bottom-10 right-0 bg-transparent" type="button" onClick={handleClick} >
          {
-         active ? <Image src="/images/mic-on.svg" alt=""/> 
-         : (<Image src="/images/mic.svg" alt=""/>)
+         active ? <Image src="/images/mic-on.svg" alt="" width={80} height={80}/> 
+         : (<Image src="/images/mic.svg" alt="" width={80} height={80}/>)
          }
         </button> 
       </>
