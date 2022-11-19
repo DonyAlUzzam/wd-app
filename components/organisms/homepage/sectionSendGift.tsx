@@ -22,7 +22,7 @@ export default function SectionSendGift() {
       </Box>
 
       <Box as="div" direction="column" items="center" justify="center">
-        <ReactPlayer url='https://youtu.be/85v6ZwDR0uY' />
+        <ReactPlayer url="https://youtu.be/85v6ZwDR0uY" />
       </Box>
     </Box>
   );
