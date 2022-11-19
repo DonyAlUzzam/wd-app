@@ -25,7 +25,7 @@ const Routes = [
   },
   {
     name: "gift",
-    title: "Kado",
+    title: "Video",
     path: "/gift",
     placement: ["header"],
   },

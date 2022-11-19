@@ -36,7 +36,7 @@ export default function SectionUcapan() {
           variant="primary"
           buttonProps={{
             onClick: () => {
-              window.open("https://api.whatsapp.com/send?phone=+6282183761349", "_blank");
+              window.open("https://api.whatsapp.com/send?phone=+6282176644101", "_blank");
             },
           }}
         />

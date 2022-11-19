@@ -59,7 +59,8 @@ const Home: NextPage = () => {
         <Gap height="h-32" />
         <SectionSendGift />
         <ReactPlayer
-        url="https://j.top4top.io/m_2110cbrrh1.mp3"
+        // url="https://j.top4top.io/m_2110cbrrh1.mp3"
+        url="/music/m-1.mp3"
         playing={active}
         controls={true}
         style={divStyle}

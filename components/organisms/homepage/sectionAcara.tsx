@@ -41,7 +41,7 @@ export default function SectionAcara() {
               {" "}
               {APP_CONTENT.akad["end-time"]}
               {" "}
-              Wib
+            
             </Typography>
             <Typography tags="p" align="center">
               {APP_CONTENT.akad.location}
@@ -51,13 +51,13 @@ export default function SectionAcara() {
               variant="line"
               size="sm"
               buttonProps={{
-                onClick: () => { handleDialogOpen(APP_CONTENT.akad.map); },
+                // onClick: () => { handleDialogOpen(APP_CONTENT.akad.map); },
               }}
             />
           </Box>
 
           <Box as="div" direction="column" items="center" className="gap-4">
-            <Typography tags="p" align="center" className="font-black">Resepsi I</Typography>
+            <Typography tags="p" align="center" className="font-black">Resepsi</Typography>
             <Typography tags="h2" align="center" className="font-ephesis">
               {formatDateTime(APP_CONTENT.resepsi.date, "dddd, dd MMMM y")}
             </Typography>
@@ -79,7 +79,7 @@ export default function SectionAcara() {
               variant="line"
               size="sm"
               buttonProps={{
-                onClick: () => { handleDialogOpen(APP_CONTENT.resepsi.map); },
+                // onClick: () => { handleDialogOpen(APP_CONTENT.resepsi.map); },
               }}
             />
           </Box>
