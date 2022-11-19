@@ -84,7 +84,7 @@ export default function SectionAcara() {
             />
           </Box>
 
-          {APP_CONTENT.unduh && (
+          {/* {APP_CONTENT.unduh && (
             <Box as="div" direction="column" items="center" className="gap-4">
               <Typography tags="p" align="center" className="font-black">Resepsi II</Typography>
               <Typography tags="h2" align="center" className="font-ephesis">
@@ -112,7 +112,7 @@ export default function SectionAcara() {
                 }}
               />
             </Box>
-          )}
+          )} */}
         </Box>
 
       </Box>
