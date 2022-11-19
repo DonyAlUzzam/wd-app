@@ -16,7 +16,7 @@ export const APP_CONTENT = {
   bride: {
     man: {
       name: "Avie Nur Darojat",
-      "family-order": 4,
+      "family-order": 2,
       image: "/public/image/images.svg"
     },
     woman: {
@@ -60,9 +60,9 @@ export const APP_CONTENT = {
     other: <any>[],
     bank: <any>[
       {
-        name: "MANDIRI",
-        "account-number": "1090016837346",
-        "account-owner": "M KHAIRI USMAN",
+        name: "BRI",
+        "account-number": "573001034570536",
+        "account-owner": "AVIE BUR DAROJAT",
       },
     ],
     bank2: <any>[

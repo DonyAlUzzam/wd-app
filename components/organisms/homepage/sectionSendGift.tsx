@@ -16,9 +16,29 @@ export default function SectionSendGift() {
         <Typography tags="p" align="center" className="italic tracking-widest">
           Terima kasih atas doa dan restu yang telah anda berikan.
         </Typography>
-        {/* <Typography tags="p" align="center">
-          Jika anda ingin mengirimkan kado nikah, silahkan kirim dengan cara dibawah ini.
-        </Typography> */}
+        <Typography tags="p" align="center">
+          Jika anda ingin mengirimkan kado, silahkan kirim dengan cara dibawah ini.
+        </Typography>
+      </Box>
+
+      <Box as="div" direction="column" items="center" className="gap-2">
+        <Typography tags="p" align="center">
+          Transfer melalui Nomor Rekening Bank,
+        </Typography>
+
+        {APP_CONTENT["gift-box"].bank.map((bank: BankDataTypes) => {
+          return (
+            <Typography key={bank["account-number"]} tags="p" align="center">
+              <span className="tracking-widest">{bank.name}</span>
+              {" "}
+              <b>{bank["account-number"]}</b>
+              {" "}
+              a.n.
+              {" "}
+              <b>{bank["account-owner"]}</b>
+            </Typography>
+          );
+        })}
       </Box>
 
       <Box as="div" direction="column" items="center" justify="center">
